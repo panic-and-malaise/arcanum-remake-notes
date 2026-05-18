@@ -2,9 +2,6 @@
 aliases:
 created: 2026-05-0617:16
 tags:
-  - college/homework
-  - college/game-design-basics-2
-  - game-design
 ---
 Links: [[Arcanum of Steamworks and Magick Obscura (2001)|Arcanum: of Steamworks and Magick Obscura (2001)]]
 
