@@ -4,13 +4,13 @@ created: 2026-05-17T15:24:00
 tags:
   - arcanum/combat
 ---
-Links: [[Arcanum of Steamworks and Magick Obscura (2001)|Arcanum: of Steamworks and Magick Obscura (2001)]]
+Links: [[Arcanum of Steamworks and Magick Obscura (2001)|Arcanum: of Steamworks and Magick Obscura (2001) ]]
 
 ___
 
 ==comments look like this==
-### Combat
-#### Overview
+## Combat
+### Overview
 
 Combat is one of the areas where the original *Arcanum* most obviously struggles. Fights are short and unpredictable, victory mostly coming down to a simple stat check, magick and tech are indistinguishable mechanically your companions act on their own accord, mostly choosing to rush down enemies, often to disastrous results. As a whole, it bears a striking resemblance to *Ultima VII: The Black Gate* of all things, a game released almost a decade earlier, similarly criticized for a lack of interactivity and discernability in *its* rudimentary combat systems.
 
@@ -21,8 +21,8 @@ More concretely, combat will be carried out in a turn-based, tactical format, re
 Combat encounters will, from the player's perspective, occur almost anywhere, be it in fetid swamps, dank caves, or bustling city streets. In reality though, combat will be scripted and sequestered to specific areas designated as "combat arenas", whose sole purpose is to provide an engaging space for players to interact with the game's combat mechanics. However, these arenas and whether combat actually ends up occurring in them will depend on player actions, creating a diverse experience and fostering replayability. 
 
 To show more concretely what battles look like, let's take a closer look at the flow of standard battle:
-#### How a standard combat encounter looks
-##### The player's turn
+### How a standard combat encounter looks
+#### The player's turn
 
 The player is shown a wide view of the area naturally designated as the "battlefield", highlighting enemies and potential items of interest or secondary objectives. A traditional turn order display will denote the order that combatants will act in, changing to reflect temporary stat changes and status ailments.
 
@@ -47,7 +47,7 @@ Players choose their actions individually for their own character, *and* each of
 Additionally, players can choose to undo any move made before choosing to advance to the enemies' turn, allowing a degree of planning and experimentation in-game before committing to a single plan of action and aiming to avoid player frustration over "just missing" a better action.
 
 When the player is ready and has chosen an appropriate action for all of their party members, they may choose to confirm and execute their actions, watching them unfold in order. When all player actions are finished, the enemy party's turn begins.
-##### The enemies' turn
+#### The enemies' turn
 
 Enemies act governed by the same rules as the player, their actions dependant on their specific abilities and builds, but generally being similar to the player's. Most importantly, enemies are **not** given any affordances or advantages that are not likewise given to the player. To put it simply, enemies play fair, according to the rules and systems of combat, as the player does.
 
@@ -65,9 +65,9 @@ Challenge in combat instead stems from a variety of interoperating factors:
 As is customary in turn-based tactical games, players cannot act during enemy turns (barring exceedingly rare exceptions), merely observing their actions and preparing for their next turn. That is to say, enemy actions must be preempted and played around strategically, like a game of *Chess* or *Go*.
 
 In this section, we placed a great deal of importance on the asymmetry of combat encounters through build variety and uniqueness. This is an area that is perhaps overstated in the original Arcanum, the lines between different factions and weapon types blurred into a homogeneous paste of real-time combat. With this being the original's implementation, it begs the question, in ARCANUM REMADE...
-#### What is the practical difference between tech and magick?
+### What is the practical difference between tech and magick?
 
-A core pillar of Arcanum's world, the divide between *tech* and *magick*, *technicians* and *sorcerers*, *new* and *old*, is the driving force behind the fantasy that the it seeks to portray. A clear, mechanical, *tangible* and *measurable* divide is necessary to maintain ludonarrative harmony. The first, and most obvious of these differences is of course...
+A core pillar of Arcanum's world, the divide between *tech* and *magick*, *technicians* and *sorcerers*, *new* and *old*, is the driving force behind the fantasy that it seeks to portray. A clear, mechanical, *tangible* and *measurable* divide is necessary to maintain ludonarrative harmony. The first, and most obvious of these differences is of course...
 
 - **Aesthetic**
 ==very subjective, more argumentative than professional==
@@ -80,9 +80,7 @@ That being said, aesthetics still *is* only one part of the equation; in a succe
 -  **Measurable mechanical difference**
 That is to say, magick and tech should be different in the way that they interact with the the core gameplay systems, offering visibly distinct playstyles and providing unique strengths and weaknesses in combat. We touched on some examples in the previous section, but as one of the main pillars of combat design, this aspect warrants further, detailed discussion.
 
-Technology has its preparation time front-loaded and compressed. Loading a gun, building bombs, creating machines, all of these generally take place *before* battle (barring exceptions); as such, technicians enjoy the privilege of nigh instant actions in combat. 
-
-Gun-slinging technicians can take on the role of flankers or the vanguard of the party, supporting and protecting their allies with covering fire; Wind-Up Mechanists can send hordes of constructs to disrupt enemies; Cannoneers turn people into people-shaped flesh chunks. 
+Technology has its preparation time front-loaded and compressed. Loading a gun, building bombs, creating machines, all of these generally take place *before* battle (barring exceptions); as such, technicians enjoy the privilege of nigh instant actions in combat. Gun-slinging technicians can take on the role of flankers or the vanguard of the party, supporting and protecting their allies with covering fire; Wind-Up Mechanists can send hordes of constructs to disrupt enemies; Cannoneers turn people into people-shaped flesh chunks. 
 
 As a consequence of this, however, technicians have to manage their supplies carefully and are practically defenseless during their "reloading" phase, leaving them vulnerable to well-timed or delayed attacks.
 

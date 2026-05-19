@@ -2,8 +2,9 @@
 aliases:
 created: 2026-05-0617:16
 tags:
+  - notes
 ---
-Links: [[Arcanum of Steamworks and Magick Obscura (2001)|Arcanum: of Steamworks and Magick Obscura (2001)]]
+Links: [[Games/Arcanum of Steamworks and Magick Obscura (2001)|Arcanum: of Steamworks and Magick Obscura (2001)]]
 
 ___ 
 ## Core Identity of Arcanum
