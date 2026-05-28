@@ -7,8 +7,6 @@ tags:
 Links: [[Arcanum of Steamworks and Magick Obscura (2001)|Arcanum: of Steamworks and Magick Obscura (2001) ]]
 
 ___
-
-==comments look like this==
 ## Combat
 ### Overview
 
@@ -20,13 +18,13 @@ More concretely, combat will be carried out in a turn-based, tactical format, re
 
 Combat encounters will, from the player's perspective, occur almost anywhere, be it in fetid swamps, dank caves, or bustling city streets. In reality though, combat will be scripted and sequestered to specific areas designated as "combat arenas", whose sole purpose is to provide an engaging space for players to interact with the game's combat mechanics. However, these arenas and whether combat actually ends up occurring in them will depend on player actions, creating a diverse experience and fostering replayability. 
 
-To show more concretely what battles look like, let's take a closer look at the flow of standard battle:
+To show more concretely what battles look like, let's take a closer look at...
 ### How a standard combat encounter looks
 #### The player's turn
 
-The player is shown a wide view of the area naturally designated as the "battlefield", highlighting enemies and potential items of interest or secondary objectives. A traditional turn order display will denote the order that combatants will act in, changing to reflect temporary stat changes and status ailments.
+The player is shown a wide view of the area naturally designated as the "battlefield", highlighting enemies and potential items of interest or secondary objectives. This area is effectively "closed off" from the rest of the world map for the player during combat, trapping them until an end state is reached. A traditional turn order display will denote the order that combatants will act in, changing to reflect temporary stat changes and status ailments.
 
-During their turn, players can choose to take one of four actions:
+During their turn, players can choose to take four actions:
 1. **Move**
 	Lets the player move a certain number of units, variable depending on skills, perks, status, or terrain
 2. **Attack**
@@ -51,7 +49,6 @@ When the player is ready and has chosen an appropriate action for all of their p
 
 Enemies act governed by the same rules as the player, their actions dependant on their specific abilities and builds, but generally being similar to the player's. Most importantly, enemies are **not** given any affordances or advantages that are not likewise given to the player. To put it simply, enemies play fair, according to the rules and systems of combat, as the player does.
 
-==fine section, needs to be somewhere, but that place might not be *here*==
 Challenge in combat instead stems from a variety of interoperating factors:
 - Enemy abilities and builds
 	Most directly, the difference between magick and tech, the precise methods that the enemy can utilize to act in combat. In this way, enemies are also differentiated based on their relative strength or weakness; e.g. a large number of weak grunts or a single skilled and well-armed technician
@@ -70,8 +67,7 @@ In this section, we placed a great deal of importance on the asymmetry of combat
 A core pillar of Arcanum's world, the divide between *tech* and *magick*, *technicians* and *sorcerers*, *new* and *old*, is the driving force behind the fantasy that it seeks to portray. A clear, mechanical, *tangible* and *measurable* divide is necessary to maintain ludonarrative harmony. The first, and most obvious of these differences is of course...
 
 - **Aesthetic**
-==very subjective, more argumentative than professional==
-While some designers choose to interpret aesthetic as an entirely separate pillar, unrelated and opposed to the goals and tenets of systemic and mechanical design, I personally do not make such a distinction. Aesthetics support mechanics, which in turn support the setting and the overall player fantasy. How a mechanic *feels* is often just as, if not *more* important than what it means in a systemic context. Let us never forget *Metal Gear Rising: Revengeance*, a simple hack-and-slash video game that turns mashing a single button into a monumental and deeply satisfying event of city-razing proportions.
+While some designers choose to interpret aesthetic as an entirely separate pillar, unrelated and opposed to the goals and tenets of systemic and mechanical design, in reality, it couldn't be further from the truth. Aesthetics support mechanics, which in turn support the setting and the overall player fantasy. How a mechanic *feels* is often just as, if not *more* important than what it means in a systemic context. Let us never forget *Metal Gear Rising: Revengeance*, a simple hack-and-slash video game that turns mashing a single button into a monumental and deeply satisfying event of city-razing proportions.
 
 *Satisfying* is the keyword here; ARCANUM REMADE will strive to make each attack *feel* good for players. Sharp hit sounds, screen shake, blood spatter, smoke rising from barrels, charred remains left behind in the wake of a terrible fireball... It might sound crude, but in a game in which player interactivity is mainly achieved through combat mechanics— i.e. *violence*—unless the game is trying to make a specific statement, players should wholeheartedly enjoy the act of cold-blooded murder.
 
@@ -84,4 +80,28 @@ Technology has its preparation time front-loaded and compressed. Loading a gun, 
 
 As a consequence of this, however, technicians have to manage their supplies carefully and are practically defenseless during their "reloading" phase, leaving them vulnerable to well-timed or delayed attacks.
 
-Meanwhile, mages can take much longer to affect the battlefield, preparing spells and potions on the fly, or casting delayed trap spells that influence combat over a period of multiple turns.
+Meanwhile, mages can take much longer to affect the battlefield, preparing spells and potions on the fly, or casting delayed trap spells that influence combat over a period of multiple turns. This turns them into natural support classes, characters that work best when paired with others covering their weak points.
+
+This gives battles a defined "rhythm" or "flow", with different classes being active on different "intervals" of turns, adding a timing, or more accurately, a *tempo* component that must be considered during each battle in order to command one's characters optimally.
+
+For more exact information on the nitty-gritty of magick-tech differences, skim through the sections of this document concerning the *Progression system* of ARCANUM REMASTERED, conveniently also penned by yours truly.
+
+For now though, 
+### Fate points
+
+As is customary for anything original in Arcanum, Fate points are a genuinely interesting and fun idea that, in its original form, is sadly held back by a profound lack of *clarity* on what they do and how they can be obtained, making them so rare that hoarding them is only natural, further making the player disappointed when they discover that they have little to no *impact* in actual gameplay.
+
+Conceptually though, Fate points are a fascinating idea and one of the few pure mechanics that are truly unlike anything else in the genre. For the purposes of ARCANUM REMASTERED, Fate points will be redesigned from the ground up to provide a *clear* and *profound* impact during gameplay. While this section will focus exclusively on their combat use, elaborating only as much as necessary, a more thorough exploration of Fate points, from how they're obtained, to how they interact *outside* of combat can be found in the *Progression system* section.
+
+For now though, the key phrase for Fate points is...
+
+**EQUIVALENT EXCHANGE**
+
+To explain, let's try to examine what exactly Fate points are supposed to be: a *deus ex machina*, a single-use divine intervention, something that by its very nature *breaks* systems and causes unexpected results. Put like this, we see how Fate points are an inherently dangerous system to balance, something that can easily get out of hand if not handled correctly.
+### Summary
+
+In summary, ARCANUM REMASTERED's combat system is:
+- turn-based and tactical
+- focused on positioning and tempo
+- highly reactive, designed to encourage emergent solutions
+- not a means to an end or a genre trope included out of necessity, but a real, genuine system designed to be engaging and, most of all, *fun* for players no matter their playstyle or preferences
