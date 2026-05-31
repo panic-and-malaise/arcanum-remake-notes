@@ -12,7 +12,7 @@ ___
 
 Combat is one of the areas where the original *Arcanum* most obviously struggles. Fights are short and unpredictable, victory mostly coming down to a simple stat check, magick and tech are indistinguishable mechanically your companions act on their own accord, mostly choosing to rush down enemies, often to disastrous results. As a whole, it bears a striking resemblance to *Ultima VII: The Black Gate* of all things, a game released almost a decade earlier, similarly criticized for a lack of interactivity and discernability in *its* rudimentary combat systems.
 
-ARCANUM REMADE will aim to capture the *spirit* and *intent* of the original's combat, choosing to build it from scratch, aiming to make encounters both mechanically interesting and straightforwardly *fun*. With a focus on problem-solving and player agency, the new combat system will aim to more thoroughly integrate into the simulation of Arcanum's world, fostering emergent gameplay scenarios that reward player creativity and experimentation.
+*ARCANUM REMADE* will aim to capture the *spirit* and *intent* of the original's combat, choosing to build it from scratch, aiming to make encounters both mechanically interesting and straightforwardly *fun*. With a focus on problem-solving and player agency, the new combat system will aim to more thoroughly integrate into the simulation of *Arcanum*'s world, fostering emergent gameplay scenarios that reward player creativity and experimentation.
 
 More concretely, combat will be carried out in a turn-based, tactical format, reminiscent of *XCOM 2*, *Vandal Hearts*, or the *Final Fantasy Tactics* series. Combat will take place directly on the world map in hand-crafted arenas that provide numerous ways to take on enemies depending on how you've built your character, turning combat into a more overt puzzle where players must carefully balance their numeric resources like health, magick, and turns with terrain, positional advantages, and specific tech-magick match-ups.
 
@@ -24,7 +24,7 @@ To show more concretely what battles look like, let's take a closer look at...
 
 The player is shown a wide view of the area naturally designated as the "battlefield", highlighting enemies and potential items of interest or secondary objectives. This area is effectively "closed off" from the rest of the world map for the player during combat, trapping them until an end state is reached. A traditional turn order display will denote the order that combatants will act in, changing to reflect temporary stat changes and status ailments.
 
-During their turn, players can choose to take four actions:
+During their turn, players can choose to take four actions:==action points==
 1. **Move**
 	Lets the player move a certain number of units, variable depending on skills, perks, status, or terrain
 2. **Attack**
@@ -33,6 +33,7 @@ During their turn, players can choose to take four actions:
 	Allows usage of items from the player's inventory. Usable items will be limited as little as possible to allow maximum player expression and engender immersive and emergent gameplay situations
 4. **Fate**
 	Use Fate Points to change the tides of battle, often to unpredictable and dynamic results
+	==elaborate==
 
 Depending on their scale and impact, actions take a different amount of resources, be it magick, health, or even turns. 
 For example:
@@ -61,19 +62,19 @@ Challenge in combat instead stems from a variety of interoperating factors:
 
 As is customary in turn-based tactical games, players cannot act during enemy turns (barring exceedingly rare exceptions), merely observing their actions and preparing for their next turn. That is to say, enemy actions must be preempted and played around strategically, like a game of *Chess* or *Go*.
 
-In this section, we placed a great deal of importance on the asymmetry of combat encounters through build variety and uniqueness. This is an area that is perhaps overstated in the original Arcanum, the lines between different factions and weapon types blurred into a homogeneous paste of real-time combat. With this being the original's implementation, it begs the question, in ARCANUM REMADE...
+In this section, we placed a great deal of importance on the asymmetry of combat encounters through build variety and uniqueness. This is an area that is perhaps overstated in the original *Arcanum*, the lines between different factions and weapon types blurred into a homogeneous paste of real-time combat. With this being the original's implementation, it begs the question, in *ARCANUM REMADE*...
 ### What is the practical difference between tech and magick?
 
-A core pillar of Arcanum's world, the divide between *tech* and *magick*, *technicians* and *sorcerers*, *new* and *old*, is the driving force behind the fantasy that it seeks to portray. A clear, mechanical, *tangible* and *measurable* divide is necessary to maintain ludonarrative harmony. The first, and most obvious of these differences is of course...
+A core pillar of *Arcanum*'s world, the divide between *tech* and *magick*, *technicians* and *sorcerers*, *new* and *old*, is the driving force behind the fantasy that it seeks to portray. A clear, mechanical, *tangible* and *measurable* divide is necessary to maintain ludonarrative harmony. The first, and most obvious of these differences is of course...
+#### Aesthetics
 
-- **Aesthetic**
 While some designers choose to interpret aesthetic as an entirely separate pillar, unrelated and opposed to the goals and tenets of systemic and mechanical design, in reality, it couldn't be further from the truth. Aesthetics support mechanics, which in turn support the setting and the overall player fantasy. How a mechanic *feels* is often just as, if not *more* important than what it means in a systemic context. Let us never forget *Metal Gear Rising: Revengeance*, a simple hack-and-slash video game that turns mashing a single button into a monumental and deeply satisfying event of city-razing proportions.
 
-*Satisfying* is the keyword here; ARCANUM REMADE will strive to make each attack *feel* good for players. Sharp hit sounds, screen shake, blood spatter, smoke rising from barrels, charred remains left behind in the wake of a terrible fireball... It might sound crude, but in a game in which player interactivity is mainly achieved through combat mechanics— i.e. *violence*—unless the game is trying to make a specific statement, players should wholeheartedly enjoy the act of cold-blooded murder.
+*Satisfying* is the keyword here; *ARCANUM REMADE* will strive to make each attack *feel* good for players. Sharp hit sounds, screen shake, blood spatter, smoke rising from barrels, charred remains left behind in the wake of a terrible fireball... It might sound crude, but in a game in which player interactivity is mainly achieved through combat mechanics— i.e. *violence*—unless the game is trying to make a specific statement, players should wholeheartedly enjoy the act of cold-blooded murder.
 
 That being said, aesthetics still *is* only one part of the equation; in a successful combat system, magick and tech should also have...
+#### Measurable mechanical difference
 
--  **Measurable mechanical difference**
 That is to say, magick and tech should be different in the way that they interact with the the core gameplay systems, offering visibly distinct playstyles and providing unique strengths and weaknesses in combat. We touched on some examples in the previous section, but as one of the main pillars of combat design, this aspect warrants further, detailed discussion.
 
 Technology has its preparation time front-loaded and compressed. Loading a gun, building bombs, creating machines, all of these generally take place *before* battle (barring exceptions); as such, technicians enjoy the privilege of nigh instant actions in combat. Gun-slinging technicians can take on the role of flankers or the vanguard of the party, supporting and protecting their allies with covering fire; Wind-Up Mechanists can send hordes of constructs to disrupt enemies; Cannoneers turn people into people-shaped flesh chunks. 
@@ -84,23 +85,10 @@ Meanwhile, mages can take much longer to affect the battlefield, preparing spell
 
 This gives battles a defined "rhythm" or "flow", with different classes being active on different "intervals" of turns, adding a timing, or more accurately, a *tempo* component that must be considered during each battle in order to command one's characters optimally.
 
-For more exact information on the nitty-gritty of magick-tech differences, skim through the sections of this document concerning the *Progression system* of ARCANUM REMASTERED, conveniently also penned by yours truly.
-
-For now though, 
-### Fate points
-
-As is customary for anything original in Arcanum, Fate points are a genuinely interesting and fun idea that, in its original form, is sadly held back by a profound lack of *clarity* on what they do and how they can be obtained, making them so rare that hoarding them is only natural, further making the player disappointed when they discover that they have little to no *impact* in actual gameplay.
-
-Conceptually though, Fate points are a fascinating idea and one of the few pure mechanics that are truly unlike anything else in the genre. For the purposes of ARCANUM REMASTERED, Fate points will be redesigned from the ground up to provide a *clear* and *profound* impact during gameplay. While this section will focus exclusively on their combat use, elaborating only as much as necessary, a more thorough exploration of Fate points, from how they're obtained, to how they interact *outside* of combat can be found in the *Progression system* section.
-
-For now though, the key phrase for Fate points is...
-
-**EQUIVALENT EXCHANGE**
-
-To explain, let's try to examine what exactly Fate points are supposed to be: a *deus ex machina*, a single-use divine intervention, something that by its very nature *breaks* systems and causes unexpected results. Put like this, we see how Fate points are an inherently dangerous system to balance, something that can easily get out of hand if not handled correctly.
+For more exact information on the nitty-gritty of magick-tech differences, skim through the sections of this document concerning the *Progression system* of *ARCANUM REMADE*, conveniently also penned by yours truly.
 ### Summary
 
-In summary, ARCANUM REMASTERED's combat system is:
+In summary, *ARCANUM REMADE*'s combat system is:
 - turn-based and tactical
 - focused on positioning and tempo
 - highly reactive, designed to encourage emergent solutions

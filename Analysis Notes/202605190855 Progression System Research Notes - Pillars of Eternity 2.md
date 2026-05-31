@@ -28,7 +28,7 @@ Clear classes, divided into **11**, with multiple potential **subclasses** withi
 Classes are additionally given one of **4 roles** in combat:
 1. **Striker**
 2. **Defender**
-3. **Crowd**-control
+3. **Crowd-control**
 4. **Support**
 
 Classes can **specialize in one role or cover multiple** depending on the exact build the player chooses for them.
